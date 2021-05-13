@@ -28,8 +28,8 @@ const lorem2 =
 
 const Cols = ({ text }) => {
   return (
-    <Columns space={4}>
-      <Column width={"content"}>
+    <Columns space={4} style={styles.borderOrange}>
+      <Column width={"content"} height={"fluid"}>
         <Box alignX={"center"} flex={"fluid"}>
           <Box style={{ width: 40, height: 40, backgroundColor: "pink" }}></Box>
           <Box
@@ -63,6 +63,10 @@ const styles = StyleSheet.create({
   },
   box: {
     backgroundColor: "red",
+  },
+  borderOrange: {
+    borderColor: "orange",
+    borderWidth: 1,
   },
 });
 

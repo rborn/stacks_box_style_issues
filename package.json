@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "@mobily/stacks": "1.1.6",
+    "@mobily/stacks": "1.1.7",
     "react": "17.0.*",
     "react-dom": "17.0.*",
     "react-native-web": "0.16.*",
